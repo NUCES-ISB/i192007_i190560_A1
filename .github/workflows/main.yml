@@ -14,6 +14,10 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Black Formatter
+      run: |
+        make black
     - name: Lint
       run: |
         make lint
+
