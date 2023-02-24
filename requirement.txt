@@ -1,5 +1,0 @@
-numpy
-black
-pylint
-pytest
-pytest-cov
