@@ -1,4 +1,4 @@
-## Introduction to Grdaient Descent
+## Introduction to Gradient Descent
 Gradient descent is an optimization algorithm used to minimize the value of a function. The algorithm works by iteratively adjusting the input parameters of the function in the direction of the steepest descent (negative gradient) until a minimum value of the function is reached.
 
 Here's how the algorithm works in more detail:
