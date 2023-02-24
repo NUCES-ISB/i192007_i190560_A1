@@ -5,4 +5,4 @@ install:
 format: 
 	black *.py
 lint:
-	pylint --fail-under=-1 main.py
+	pylint --fail-under=-1 gradient_descent_example.py
