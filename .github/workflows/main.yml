@@ -1,7 +1,7 @@
 name: Python application test with Github Actions
 on: 
   push:
-    branches: [ i192007, i190560, master ]
+    branches: [ i192007, i190560, master ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,9 +14,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Black Formatter
+      run: |
+        make black
     - name: Lint
       run: |
         make lint
-    - name: Run Black
-      run: |
-        make black
