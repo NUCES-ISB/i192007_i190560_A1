@@ -16,7 +16,7 @@ jobs:
         make install
     - name: Black Formatter
       run: |
-        make black
+        black gradient_descent_example.py
     - name: Lint
       run: |
         make lint
