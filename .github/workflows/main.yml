@@ -1,7 +1,7 @@
 name: Python application test with Github Actions
 on: 
   push:
-    branches: [ i190560]
+    branches: [ i190560 ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,4 +16,4 @@ jobs:
         make install
     - name: Lint
       run: |
-        make lint
+        make lint
